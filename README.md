@@ -1,5 +1,5 @@
 # causal_hypertension_alcohol
-check the causal relationship between hypertension and binge drinking by using G-formula (R)
+"check the causal relationship between hypertension and binge drinking by using G-formula (R)"
 
 I use the Korea Health Panel (KHP) data from 2008 to 2017 for analyzing the causal relationship between hypertension and binge drinking.
 
