@@ -12,3 +12,4 @@ Thus, it will be the most proper statistical method to our panel data.
 
 # Note
 This is the example code of using g-formula by R. If you want to use this method by R, it will be helpful to see this code.
+
