@@ -27,7 +27,7 @@ library(data.table)
   covnames <- c('cov1', 'cov2', 'treat')
   outcome_name <- 'outcome'
   histories <- c(lagged, cumavg)
-  histvars <- list(c('treat', 'cov1', 'cov2'), c('cov1', 'cov2')) # 시간에 따라 변하는? 요인?
+  histvars <- list(c('treat', 'cov1', 'cov2'), c('cov1', 'cov2')) # time varying covariate or confounder
   covtypes <- c('binary', 'zero-inflated normal', 'normal')
   covparams <- list(covmodels = c(cov1 ~ lag1_treat + lag1_cov1 + lag1_cov2 +
                                     cov3 + time,
