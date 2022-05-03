@@ -312,7 +312,7 @@ abline(v=0,col="red",lty=3,lwd=2)
   covtypes <- c('binary',"categorical",'categorical',"normal","normal","binary")
   outcome_name <- 'chronic_p'
   histories <- c(lagged,cumavg)
-  histvars <- list(c('binge','stress','medicine_new','smoke_new'),c("bmi","income")) # 시간에 따라 변하는? 요인?
+  histvars <- list(c('binge','stress','medicine_new','smoke_new'),c("bmi","income")) # time varying confounder
   covparams <- list(covmodels = c(binge ~ lag1_binge+smoke_new+lag1_medicine_new+stress+income+sex+max_age+time,
                                   stress~lag1_stress+income+cumavg_bmi+max_age+time,
                                   medicine_new~lag1_medicine_new+lag1_binge+time,
